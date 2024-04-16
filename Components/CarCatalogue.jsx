@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import data from "../app/utils/carData";
+import data from "../app/utils/carData.json";
+
 import Card from "./Card";
 
 const CarCatalogue = () => {

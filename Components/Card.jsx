@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import data from "../app/utils/carData";
+import data from "../app/utils/carData.json";
 import { useEffect, useState } from "react";
 import ModelCar from "./ModelCar";
 
