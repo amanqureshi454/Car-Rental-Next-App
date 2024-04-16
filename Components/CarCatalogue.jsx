@@ -31,6 +31,7 @@ const CarCatalogue = () => {
     setSelectedYear("");
   };
 
+  
   const searchHandler = (e) => {
     setQuery(e.target.value);
   };
@@ -146,6 +147,7 @@ const CarCatalogue = () => {
             </div>
           </div>
         </div>
+        
         <div className="car__cards--conatiner flex justify-between items-center lg:gap-4 md:gap-2 flex-wrap">
           <Card
             searchQuery={query}
