@@ -19,7 +19,7 @@ const ModelCar = ({ closeHandler, selectedCar }) => {
     <>
       <div
         onClick={closeHandler}
-        className="fixed overlay top-0 left-0 z-[5] w-full h-full flex justify-center items-center backdrop-blur-sm"
+        className="fixed overlay top-0 left-0 z-[5] w-full h-full flex justify-center items-center backdrop-blur-sm opacity-95"
       >
         <div className="modal__car z-10 flex justify-center shadow-sm shadow-black items-center flex-col lg:w-[500px] md:w-[400px] w-[95%]  h-auto lg:p-6 md:p-6 p-4  rounded-xl bg-[#f4f4f4] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <div className="close--img">
